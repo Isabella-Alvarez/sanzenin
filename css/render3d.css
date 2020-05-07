@@ -1,0 +1,107 @@
+
+            /*CONTENIDO render 3d*/
+
+
+main {}
+
+main section#banner-animado-render3d {}
+main section#banner-animado-render3d video{}
+main section#banner-animado-render3d video source{}
+
+main section#jk-project {}
+main section#jk-project article {}
+main section#jk-project article figure {}
+main section#jk-project article figure img {}
+main section#jk-project article div {}
+main section#jk-project article div h3 {}
+main section#jk-project article div p {}
+
+main section#texture-balls {}
+main section#texture-balls div {}
+main section#texture-balls div h3 {}
+main section#texture-balls div p {}
+main section#texture-balls figure {}
+main section#texture-balls figure img {}
+
+main section#u-wigo {}
+main section#u-wigo figure {}
+main section#u-wigo figure img {}
+main section#u-wigo div {}
+main section#u-wigo div h3 {}
+main section#u-wigo div p {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}

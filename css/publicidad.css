@@ -1,0 +1,108 @@
+
+            /*CONTENIDO Publicidad*/
+
+
+main {}
+
+main section#banner-animado-publicidad {}
+main section#banner-animado-publicidad video{}
+main section#banner-animado-publicidad video source{}
+
+main section#the-new-automation-standard {}
+main section#the-new-automation-standard article {}
+main section#the-new-automation-standard article figure {}
+main section#the-new-automation-standard article figure img {}
+main section#the-new-automation-standard article div {}
+main section#the-new-automation-standard article div h3 {}
+main section#the-new-automation-standard article div p {}
+
+main section#control-all {}
+main section#control-all div {}
+main section#control-all div h3 {}
+main section#control-all div p {}
+main section#control-all figure {}
+main section#control-all figure img {}
+
+main section#automate-your-home {}
+main section#automate-your-home figure {}
+main section#automate-your-home figure img {}
+main section#automate-your-home div {}
+main section#automate-your-home div h3 {}
+main section#automate-your-home div p {}
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}

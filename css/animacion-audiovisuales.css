@@ -1,0 +1,107 @@
+
+            /*CONTENIDO Animacion-audiovisuales*/
+
+
+main {}
+
+main section#banner-animado-animacion-audiovisuales {}
+main section#banner-animado-animacion-audiovisuales video{}
+main section#banner-animado-animacion-audiovisuales video source{}
+
+main section#terramar-project {}
+main section#terramar-project article {}
+main section#terramar-project article figure {}
+main section#terramar-project article figure iframe {}
+main section#terramar-project article div {}
+main section#terramar-project article div h3 {}
+main section#terramar-project article div p {}
+
+main section#after-effects-c4d {}
+main section#after-effects-c4d div {}
+main section#after-effects-c4d div h3 {}
+main section#after-effects-c4d div p {}
+main section#after-effects-c4d figure {}
+main section#after-effects-c4d figure iframe {}
+
+main section#capas-3d {}
+main section#capas-3d figure {}
+main section#capas-3d figure iframe {}
+main section#capas-3d div {}
+main section#capas-3d div h3 {}
+main section#capas-3d div p {}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}

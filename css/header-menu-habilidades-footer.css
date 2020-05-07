@@ -1,0 +1,540 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+/* Parámetros Globales de Estilo */
+
+h1, h2, h3, h4, h5, h6, p, a, span, nav { font-family: 'Nunito', sans-serif; 
+}
+
+
+/*MENU MOVIL*/
+
+/* Estilo propio del sitio web */
+aside#menu-cortina {
+    width: 290px;
+    height: 100%;
+    display: block;     /* Si se oculta en Escritorio, este valor es none */
+    margin: 0;
+    float: none;
+    position: fixed;
+    top: 0;
+    right: -290px;
+    z-index: 99995;
+    background: #38394D;
+}
+
+aside#menu-cortina a#abrir {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    background: transparent;
+    text-decoration: none;
+}
+aside#menu-cortina a#abrir i {
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 13px 0;
+    font-size: 1.35em;
+}
+aside#menu-cortina a#abrir:hover { }
+aside#menu-cortina a#abrir:hover i { }
+
+aside#menu-cortina a#cerrar {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background: transparent;
+ text-decoration: none;
+}
+aside#menu-cortina a#cerrar i {
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 13px 0;
+    font-size: 1.35em; }
+aside#menu-cortina a#cerrar:hover { }
+aside#menu-cortina a#cerrar:hover i { }
+
+aside#menu-cortina nav#menu-idioma-movil{ }
+aside#menu-cortina nav#menu-idioma-movil a{
+    color: white;
+}
+aside#menu-cortina nav#menu-idioma-movil a:hover{}
+aside#menu-cortina nav#menu-idioma-movil span{ 
+    color: white;
+}
+aside#menu-cortina nav#menu-idioma-movil a:hover span{}
+
+aside#menu-cortina nav#menu-principal-movil {
+    width: 80%;
+    height: 400px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    
+}
+aside#menu-cortina nav#menu-principal-movil a { 
+    color: white;
+}
+aside#menu-cortina nav#menu-principal-movil a:hover { }
+aside#menu-cortina nav#menu-principal-movil span { }
+
+
+
+
+
+/* Menú Flotante */
+
+aside#menu-flotante {
+    width: 50px;
+    height: 170px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+}
+aside#menu-flotante nav {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+aside#menu-flotante nav a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 10px;
+    float: none;
+    position: relative;
+    text-decoration: none;
+    
+    border-radius: 50%;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s ease-in;
+}
+aside#menu-flotante nav a i {
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 1.45em;
+    padding: 14px 0;
+    transition: all 0.2s ease-in;
+}
+aside#menu-flotante nav a:nth-child(1) {
+    background: #25d366;
+}
+aside#menu-flotante nav a:nth-child(2) {
+    background: #38394D;
+}
+
+aside#menu-flotante nav a:hover {
+    background: #fff;
+    transform: scale(1.1) rotate(-15deg);
+    transition: all 0.2s ease-in;
+}
+aside#menu-flotante nav a:hover i {
+    color: #000;
+    transition: all 0.2s ease-in;
+}
+
+
+
+
+
+header {  
+    width: 100%;            /*Anchura*/
+    height: 80px;          /*Altura*/
+    display: block;         /*Despliegue*/
+    margin: 0;              /*Margen*/
+    float: none;            /*Lado hacia el que flota*/
+    position: fixed;        /* fixed / absolute / relative / sticky(JS) */
+    
+    top: 0;             /*Solo sirven para posiciones fijas y absolutas*/
+    left: 0;
+    z-index: 99994;
+    
+    background: #38394D;
+    }
+
+
+    /*header superior*/
+
+
+header article#arriba-header {
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #000000;
+}
+
+header article#arriba-header span {
+    width: 10%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    margin-top: 7px;
+    float: right;
+    position: relative;
+    
+    color: white;
+}
+
+header article#arriba-header nav#menu-redes {
+    width: 10%;
+    height: 30px;
+    display: block;
+    margin: 0;
+    float: right;
+    position: relative;
+}
+header article#arriba-header nav#menu-redes a { 
+    width: auto;
+    height: 18px;
+    display: block;
+    margin: 6px 6px;
+    float: inherit;
+    position: relative;
+    
+    color: #ffffff;
+}
+header article#arriba-header nav#menu-redes a i { }
+header article#arriba-header nav#menu-redes a:hover { }
+header article#arriba-header nav#menu-redes a:hover i { }
+
+
+    /*header inferior*/
+
+
+header article#abajo-header {
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative;
+    
+    background: #38394D;
+    
+}
+header article#abajo-header a#logo {
+    width: 128px;
+    height: 30px;   
+    display: block;
+    margin: 10px 50px;
+    float: left;
+    position: relative;
+    
+    transition: all 0.2s ease-in;
+}
+
+header article#abajo-header a#logo:hover { 
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+    }
+
+header article#abajo-header a#logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    }
+
+header article#abajo-header a#logo:hover img { }
+
+header article#abajo-header nav#menu-principal { 
+    width: auto;
+    height: 30px;
+    display: inline-block;
+    margin: 17px auto 3px 0;
+    float: none;
+    position: relative;
+}
+    
+header article#abajo-header nav#menu-principal a {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 0 6px;
+    float: none;
+    position: relative;
+    
+    color: #ffffff; 
+    text-decoration:none
+}
+header article#abajo-header nav#menu-principal a:hover { 
+    
+    transition: all 0.2s ease-in;
+    color: #64F2D0;
+}
+
+
+
+    /*menu idioma*/
+
+
+
+header article#abajo-header nav#menu-idioma {
+    width: 123px;
+    height: 30px;
+    display: block;
+    margin: 17px auto 3px 0;
+    float: right;
+    position: relative;
+    
+}
+header article#abajo-header nav#menu-idioma a { 
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 0 6px;
+    float: none;
+    position: relative;
+    
+    color: #ffffff;
+    text-decoration:none
+}
+header article#abajo-header nav#menu-idioma a:hover { }
+header article#abajo-header nav#menu-idioma span { 
+    color: #ffffff;
+}
+
+
+    /*Seccion habilidades*/
+
+main section#habilidades {
+    width: 100%;
+    height: auto;
+   
+}
+main section#habilidades article {
+    width: 100%;
+    height: 15%;
+    position: relative;
+}
+main section#habilidades article h3 {
+    text-align: center;
+    color: #38394D;
+    font-size: 2em;
+    margin: 0;
+    margin-top: 0;
+}
+main section#habilidades article hr {
+    width: 25%;
+    border: 2px solid;
+    color: #64F2D0;
+     border-radius: 7px 7px 7px 7px;
+}
+main section#habilidades nav {
+    width: auto;
+    height: 337px;
+    display: flex;
+}
+main section#habilidades nav a {
+    float: left;
+    margin: 10px;
+    width: 25%;
+    border-radius: 30px;
+}
+main section#habilidades nav a:hover {
+    
+   position: relative;
+   
+    transform: scale(0.9);
+    transition: all 0.2s ease-in;
+}
+
+
+
+main section#habilidades nav a#habilidad-publicidad {
+    
+    background: url('../img/isabella-alvarez-diseno-web-proyecto-web-publicidad-mini.jpg') no-repeat top center;
+    background-size: cover;
+    
+
+
+}
+
+main section#habilidades nav a#habilidad-uiux{
+    background: url('../img/isabella-alvarez-diseno-web-proyecto-web-uiux-mini.jpg') no-repeat top center;
+    background-size: cover;
+}
+main section#habilidades nav a#habilidad-render3d{
+    background: url('../img/isabella-alvarez-diseno-web-proyecto-web-render3d-mini.jpg') no-repeat top center;
+    background-size: cover;
+}
+main section#habilidades nav a#habilidad-animacion{
+    background: url('../img/isabella-alvarez-diseno-web-proyecto-web-animacionaudiovisuales-mini.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+
+main section#habilidades nav a span {
+   color: white;
+    position: absolute;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 23.5%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+main section#habilidades nav a span:nth-child(1) {}
+
+main section#habilidades nav a span:nth-child(2) {}
+
+main section#habilidades nav a span:nth-child(3) {}
+
+main section#habilidades nav a span:nth-child(4) {}
+
+
+
+/*inicio footer*/
+
+
+footer {
+   
+    width: auto;            /*Anchura*/
+    height: 260px;          /*Despliegue*/
+    margin: 0;            /*Lado hacia el que flota*/
+            /* fixed / absolute / relative / sticky(JS) */
+    position: relative;
+    background: #38394D;
+    /* background: url('../img/alberto-angulo-diseno-web-fondo-01.jpg') no-repeat top center fixed #333; */
+   text-align: center;
+    }
+
+footer div.footer-center{
+    margin: 0;
+    padding: 5% 0 0 0;
+}
+
+footer div.footer-center div.container-logo{
+    display: block;
+    margin: 0 auto 0 auto;
+    
+    width: 300px;
+    height: 80px;
+}
+
+footer div.footer-center div.container-logo a#logo-footer img#imagen{
+    width: 160px;
+     margin: 0 auto 0 auto;
+}
+
+
+footer nav { 
+    display: block;
+    margin: 0 auto 0 auto;
+    
+}
+
+
+footer nav a {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 0 6px;
+    float: none;
+    position: relative;
+    
+    color: #ffffff; 
+    text-decoration:none
+    
+}
+
+footer nav a:hover { }
+footer nav a i {font-size: 32px;}
+footer nav a:hover i {}
+
+    
+    
+    
+    
+    
+    /* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}

@@ -1,0 +1,99 @@
+
+        /*CONTENIDO Ui-Ux*/
+
+
+main {}
+
+main section#banner-animado-ui-ux {}
+main section#banner-animado-ui-ux video{}
+main section#banner-animado-ui-ux video source{}
+
+
+
+/*slide apps*/
+
+main section#fila-mobile-apps {}
+main section#fila-mobile-apps article {}
+main section#fila-mobile-apps article h3 {}
+main section#fila-mobile-apps article div.slick-apps {}
+main section#fila-mobile-apps article div.slick-apps div {}
+main section#fila-mobile-apps article div.slick-apps div img {}
+main section#fila-mobile-apps article div.slick-apps div div.info-slick-app {}
+main section#fila-mobile-apps article div.slick-apps div div.info-slick-app h5 {}
+main section#fila-mobile-apps article div.slick-apps div div.info-slick-app p {}
+
+
+
+/*slide web*/
+
+main section#fila-web-servers {}
+main section#fila-web-servers article {}
+main section#fila-web-servers article h3 {}
+main section#fila-web-servers article div.slick-web {}
+main section#fila-web-servers article div.slick-web div {}
+main section#fila-web-servers article div.slick-web div img {}
+main section#fila-web-servers article div.slick-web div div.info-slick-web {}
+main section#fila-mobile-apps article div.slick-web div div.info-slick-web h5 {}
+main section#fila-mobile-apps article div.slick-web div div.info-slick-web p {}
+
+
+
+
+
+
+
+
+    
+    /* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}
